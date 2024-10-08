@@ -199,3 +199,57 @@ footer .footer-text {
     margin: 0; /* Évite les marges */
     font-size: 0.9em; /* Taille de la police */
 }
+
+/* Responsive Styles */
+/* Pour les petits écrans (mobiles) */
+@media (max-width: 600px) {
+    header .logo img {
+        width: 60%; /* Augmente la taille de l'image sur mobile */
+    }
+
+    nav ul {
+        flex-direction: column; /* Les liens de navigation s'affichent en colonne */
+    }
+
+    nav ul li {
+        margin: 0.5em 0; /* Ajuste les marges pour les mobiles */
+    }
+
+    main {
+        padding: 1em; /* Réduit le padding sur les petits écrans */
+    }
+
+    footer p {
+        font-size: 0.8em; /* Réduit la taille de la police du footer */
+    }
+}
+
+/* Pour les écrans de taille moyenne (tablettes) */
+@media (min-width: 601px) and (max-width: 900px) {
+    header .logo img {
+        width: 50%; /* Ajuste la taille de l'image pour les tablettes */
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* Permet le passage à la ligne si nécessaire */
+    }
+
+    main {
+        padding: 1.5em; /* Ajuste le padding pour les tablettes */
+    }
+}
+
+/* Pour les grands écrans (ordinateurs de bureau) */
+@media (min-width: 901px) {
+    header .logo img {
+        width: 30%; /* Image à taille normale pour les grands écrans */
+    }
+
+    nav ul {
+        justify-content: center; /* Centre les éléments du menu */
+    }
+
+    main {
+        padding: 2em; /* Padding normal pour les grands écrans */
+    }
+}
