@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Informatique à domicile</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="../img/logo-informaitique40domicile.webp" alt="Logo Informatique à domicile">
+            </a>
+        </div>
+        <h1>Informatique à Domicile</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Prestation.html">Nos prestations</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Contactez-nous</h2>
+        <form action="https://formspree.io/f/xanywadd" method="POST">
+            <input type="hidden" name="_redirect" value="http://localhost/informatique@domicile/pages/Confirmation.html">
+            
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse" required>
+
+            <label for="tel">Numéro de téléphone :</label>
+            <input type="tel" id="tel" name="tel" required>
+
+            <label for="demande">Demande :</label>
+            <textarea id="demande" name="demande" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+</body>
+</html>

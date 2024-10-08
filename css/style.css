@@ -1,0 +1,201 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header .logo img {
+    width:30%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+}
+
+aside {
+    background-color: #ddd;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+/* Style pour la section "À propos" */
+.about-us {
+    padding: 2em;
+    background-color: #f9f9f9;
+}
+
+.about-us h2, .about-us h3 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-us p, .about-us ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.about-us ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-us ul li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+/* Style pour la page formulaire de contact*/
+form {
+    display: flex; /* Utilise flexbox pour aligner les éléments */
+    flex-direction: column; /* Colonne pour les éléments */
+    margin-top: 1em; /* Espacement supérieur */
+}
+
+label {
+    margin-bottom: 5px; /* Espacement entre le label et le champ */
+    font-weight: bold; /* Met le label en gras */
+    color: #333; /* Couleur du texte */
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    padding: 10px; /* Espacement intérieur */
+    margin-bottom: 20px; /* Espacement entre les champs */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis pour les champs */
+    font-size: 16px; /* Taille de la police */
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #007BFF; /* Changer la couleur de la bordure au focus */
+    outline: none; /* Supprime le contour par défaut */
+}
+
+button {
+    padding: 10px; /* Espacement intérieur du bouton */
+    background: #007BFF; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis pour le bouton */
+    cursor: pointer; /* Change le curseur au survol */
+    font-size: 16px; /* Taille de la police */
+    transition: background 0.3s ease; /* Effet de transition */
+}
+
+button:hover {
+    background: #0056b3; /* Couleur plus foncée au survol */
+}
+
+/* Style du message de confirmation */
+.confirmation-message {
+    margin-top: 20px;
+    color: green; /* Couleur du texte de confirmation */
+    font-weight: bold; /* Texte en gras */
+    text-align: center; /* Centre le message */
+}
+
+/* Styles supplémentaires pour le formulaire */
+h2 {
+    margin-bottom: 20px; /* Espacement sous le titre */
+    text-align: center; /* Centre le titre */
+}
+
+/* Styles pour la section "Nos prestations" */
+.nos-prestations h2 {
+    color: #333; /* Couleur du titre */
+    text-align: center; /* Centre le titre */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+.nos-prestations h3 {
+    color: #555; /* Couleur pour les sous-titres */
+    margin-top: 20px; /* Espacement au-dessus des sous-titres */
+}
+
+.nos-prestations ul {
+    list-style-type: disc; /* Style de la liste */
+    padding-left: 20px; /* Espacement à gauche */
+}
+
+.nos-prestations ul li {
+    margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+/* Styles supplémentaires pour le texte */
+.prestations-paragraph {
+    font-size: 1.1em; /* Taille de la police */
+    line-height: 1.6; /* Hauteur de ligne */
+    color: #333; /* Couleur du texte */
+    margin-top: 10px; /* Espacement au-dessus des paragraphes */
+}
+
+footer p {
+    margin: 0; /* Évite les marges en bas du footer */
+    font-size: 0.9em; /* Taille de la police pour le footer */
+}
+
+/* Styles pour le texte du footer */
+footer .footer-text {
+    margin: 0; /* Évite les marges */
+    font-size: 0.9em; /* Taille de la police */
+}
