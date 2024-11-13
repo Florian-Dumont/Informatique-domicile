@@ -3,14 +3,47 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
-header {
-    background-color: #333;
+header {    
     color: #fff;
     padding: 1em;
     text-align: center;
+}
+.header_title{
+    color:#181532
+}
+.fa-brands a{
+    margin-right:0.5em;  
+}
+
+.fa-square-facebook{
+    color :#3b5998;
+    font-size:1.5em;
+}
+.fa-square-instagram{
+    color:#C32AA3;
+    font-size:1.5em;
+}
+.fa-linkedin{
+    color :#1E3050;
+    font-size:1.5em;
+}
+.fa-x-twitter{
+    color:white;
+    font-size:1.5em;
+    border-radius: 50%;
+    background-color: black;
+    
+}
+.fa-paypal{
+    font-size: 1.5em;
+    color:#1E3050;
+}
+.fa-wallet{
+    font-size: 1.5em;
+    color:#1E3050;
 }
 
 header .logo img {
@@ -22,7 +55,14 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #444;
+   
+}
+section strong{
+    color:#00B2BF;
+    font-size:1.2em
+}
+aside h3{
+    color:#00B2BF
 }
 
 nav ul li {
@@ -30,26 +70,57 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #00B2BF;
     text-decoration: none;
     padding: 0.5em 1em;
     display: block;
+    font-size:1.2em;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #181532;
 }
 
 main {
     padding: 2em;
     max-width: 900px;
     margin: auto;
+    
+}
+main p {
+    font-size:1.1em
 }
 
 aside {
     background-color: #ddd;
     padding: 1em;
     margin-top: 1em;
+}
+.where-to{
+    display:block;
+    position:absolute;
+    left:60%;
+    top:150%;
+}
+.tel{
+    color:#00B2BF
+}
+/*widget google review*/
+.elfsight-app-43916fb8-c21e-48a8-9a9a-b967c19af072{
+    margin-top:2em
+}
+.img-triskel{    
+    display:flex;
+    position:right;
+    width:auto    
+}
+.triskel{
+    width:20em;
+    display:flex;
+    position:relative;
+    left:80%;
+    
+
 }
 
 footer {
@@ -74,7 +145,7 @@ footer a {
 }
 
 .about-us h2, .about-us h3 {
-    color: #333;
+    color: #181532;
     font-family: 'Arial', sans-serif;
 }
 
@@ -110,7 +181,7 @@ form {
 label {
     margin-bottom: 5px; /* Espacement entre le label et le champ */
     font-weight: bold; /* Met le label en gras */
-    color: #333; /* Couleur du texte */
+    color: #00B2BF; /* Couleur du texte */
 }
 
 input[type="text"],
@@ -157,17 +228,21 @@ button:hover {
 h2 {
     margin-bottom: 20px; /* Espacement sous le titre */
     text-align: center; /* Centre le titre */
+    color:#181532
 }
 
 /* Styles pour la section "Nos prestations" */
 .nos-prestations h2 {
-    color: #333; /* Couleur du titre */
+    color: #181532; /* Couleur du titre */
     text-align: center; /* Centre le titre */
     margin-bottom: 20px; /* Espacement sous le titre */
 }
+.computer{    
+    width:40%;
+}
 
 .nos-prestations h3 {
-    color: #555; /* Couleur pour les sous-titres */
+    color: #00B2BF; /* Couleur pour les sous-titres */
     margin-top: 20px; /* Espacement au-dessus des sous-titres */
 }
 
@@ -185,7 +260,7 @@ h2 {
 .prestations-paragraph {
     font-size: 1.1em; /* Taille de la police */
     line-height: 1.6; /* Hauteur de ligne */
-    color: #333; /* Couleur du texte */
+    color: black; /* Couleur du texte */
     margin-top: 10px; /* Espacement au-dessus des paragraphes */
 }
 
