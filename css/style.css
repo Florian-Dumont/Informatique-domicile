@@ -92,15 +92,15 @@ main p {
 }
 
 aside {
+    display:block;
     background-color: #ddd;
     padding: 1em;
     margin-top: 1em;
 }
 .where-to{
-    display:block;
-    position:absolute;
-    left:60%;
-    top:150%;
+    display:inline-block;    
+    margin-left: auto;
+    
 }
 .tel{
     color:#00B2BF
@@ -112,13 +112,14 @@ aside {
 .img-triskel{    
     display:flex;
     position:right;
-    width:auto    
+    width:auto;
+    justify-content: flex-end;    
 }
 .triskel{
-    width:20em;
+    width:20%;
     display:flex;
     position:relative;
-    left:80%;
+   
     
 
 }
@@ -280,6 +281,9 @@ footer .footer-text {
 @media (max-width: 600px) {
     header .logo img {
         width: 60%; /* Augmente la taille de l'image sur mobile */
+    }
+    .img-triskel{
+        display:none;
     }
 
     nav ul {
